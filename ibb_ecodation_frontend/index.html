@@ -56,7 +56,18 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
-                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#messages">Çalışmalarımız</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parallax">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#newspaper">Yeni Haberler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
                 </ul>
             <ul class="navbar-nav mb-2 mb-lg-0">    
                 <form class="d-flex" role="search">
@@ -76,8 +87,8 @@
                         <i class="fa-regular fa-user text-primary"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#loginId">Login</a></li>
-                        <li><a class="dropdown-item" href="#">Register</a></li>
+                        <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#loginId">Giriş Yap</a></li>
+                        <li><a class="dropdown-item" href="#">Kayıt Ol</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
@@ -97,33 +108,33 @@
         <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalTitleId">Register</h5>
+                    <h5 class="modal-title" id="modalTitleId">Giriş Yap</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form>
                         <!-- Name input -->
                         <div class="form-outline mb-4">
-                            <input type="text" id="form5Example1" class="form-control" />
-                            <label class="form-label" for="form5Example1">Name</label>
+                            <input type="email" id="form5Example1" class="form-control" />
+                            <label class="form-label" for="form5Example1">Email</label>
                         </div>
 
                         <!-- Email input -->
                         <div class="form-outline mb-4">
-                            <input type="email" id="form5Example2" class="form-control" />
-                            <label class="form-label" for="form5Example2">Email address</label>
+                            <input type="password" id="form5Example2" class="form-control" />
+                            <label class="form-label" for="form5Example2">Şifre</label>
                         </div>
 
                         <!-- Checkbox -->
                         <div class="form-check d-flex justify-content-center mb-4">
                             <input class="form-check-input me-2" type="checkbox" value="" id="form5Example3" checked />
                             <label class="form-check-label" for="form5Example3">
-                                I have read and agree to the terms
+                                Beni Hatırla
                             </label>
                         </div>
 
                         <!-- Submit button -->
-                        <button type="submit" class="btn btn-primary btn-block mb-4">Subscribe</button>
+                        <button type="submit" class="btn btn-primary btn-block mb-4">Giriş Yap</button>
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -416,5 +427,6 @@
     <!-- external JS -->
     <script src="template.js"></script>
 </body>
+
 
 </html>

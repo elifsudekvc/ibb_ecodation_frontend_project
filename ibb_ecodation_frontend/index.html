@@ -40,7 +40,7 @@
 
     <!-- start nav codes -->
     <nav id="navbar_id" class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark fixed-top">
-        <div class="container"> <!-- container-fluid -->
+        <div class="container " style="font-size: 17px;"> <!-- container-fluid -->
             <a class="navbar-brand" href="#"><i class="fa-brands fa-blogger"></i></a>
             <!-- buttonda redirect yap -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -49,7 +49,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
                     </li>
@@ -67,6 +67,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">İletişim</a>
                     </li>
                 </ul>
             <ul class="navbar-nav mb-2 mb-lg-0">    
@@ -464,9 +467,55 @@
             </div>
          </section>
           <!-- newspaper end -->
+          <br>
+           <!-- contact start -->
+           <section id="contact">
+            <div class="container">
+                <div class="row">
+                    
+                    <h2 class="myHeading">İLETİŞİM</h2>
+                    <div class="col-md-6">
+                        <div class="card">
+                            
+                            <div class="card-body">
+                                <h4 class="card-title myHeading">Şubemiz</h4>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28637.2416620515!2d29.013459249137526!3d41.022647324009974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1688172172109!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
 
-           <!-- newspaper start -->
-          <section id="contact"></section>
+                    <div class="col-md-6">
+                        <div class="card">
+                            
+                            <div class="card-body">
+                                <h4 class="card-title myHeading">BİZİMLE İLETİŞİME GEÇİN</h4>
+                                <form>
+                                    <div class="form-group">
+                                      <label for="exampleFormControlInput1">İsim Soyisim</label>
+                                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="İsim Soyisim">
+                                    </div>
+                                    <br>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Telefon Numarası</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="05xx xxx xx xx">
+                                      </div>
+                                      <br>
+                                    <div class="form-group">
+                                      <label for="exampleFormControlTextarea1">Mesajınız</label>
+                                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                    </div>
+                                    <br>
+                                    <button type="submit" class="btn btn-primary">Gönder</button>
+                                  </form>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+                </div>
+            </div>
+         </section>
+          <br>  
            <!-- newspaper end -->
     </main>
    

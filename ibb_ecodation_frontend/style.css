@@ -39,7 +39,8 @@ ul {
 
 img {
     max-width: 100%;
-    height: auto;
+    height: auto;  
+
 }
 
 img:hover {
@@ -140,6 +141,7 @@ p{
 /* Header */
 header{
 background-image: url("./img/header.jpg");
+opacity: 0.9;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: 50% 50%;

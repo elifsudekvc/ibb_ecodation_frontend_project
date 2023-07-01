@@ -84,15 +84,29 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        <i class="fa-regular fa-user text-primary"></i>
+                        <i class="fa-regular fa-user text-primary "></i>
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#loginId">Giriş Yap</a></li>
-                        <li><a class="dropdown-item" href="#">Kayıt Ol</a></li>
+                        <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#RegisterId">Kayıt Ol</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <!--Dil değiştirme-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa fa-globe text-primary"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" >Türkçe</a></li>
+                        <li><a class="dropdown-item" >English</a></li>
+                        <li><a class="dropdown-item" >Español</a></li>
+                        <li><a class="dropdown-item" >Français</a></li>
+                        
                     </ul>
                 </li>
             </ul>
@@ -143,7 +157,59 @@
             </div>
         </div>
     </div>
+ <!--Register-->
+ <div class="modal fade" id="RegisterId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog"
+ aria-labelledby="modalTitleId" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+     <div class="modal-content">
+         <div class="modal-header">
+             <h5 class="modal-title" id="modalTitleId">Kayıt Ol</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+             <form>
+                 <!-- Name input -->
+                 <div class="form-outline mb-4">
+                     <input type="text" id="form5Example1" class="form-control" />
+                     <label class="form-label" for="form5Example1">İsim Soyisim</label>
+                 </div>
 
+                 <div class="form-outline mb-4">
+                     <input type="email" id="form5Example1" class="form-control" />
+                     <label class="form-label" for="form5Example1">Email</label>
+                 </div>
+                 <div class="form-outline mb-4">
+                     <input type="date" id="form5Example1" class="form-control" />
+                     <label class="form-label" for="form5Example1">Doğum Tarihi</label>
+                 </div>
+                
+                 <!-- Email input -->
+                 <div class="form-outline mb-4">
+                     <input type="password" id="form5Example2" class="form-control" />
+                     <label class="form-label" for="form5Example2">Şifre</label>
+                 </div>
+                 <div class="form-outline mb-4">
+                     <input type="password" id="form5Example2" class="form-control" />
+                     <label class="form-label" for="form5Example2">Şifre Yeniden</label>
+                 </div>
+                 <!-- Checkbox -->
+                 <div class="form-check d-flex mb-4">
+                     <input class="form-check-input me-2" type="checkbox" value="" id="form5Example3" checked />
+                     <label class="form-check-label" for="form5Example3">
+                         Okudum Kabul ediyorum
+                     </label>
+                 </div>
+
+                 <!-- Submit button -->
+                 <button type="submit" class="btn btn-primary btn-block mb-4">Kayıt ol</button>
+             </form>
+         </div>
+         <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+         </div>
+     </div>
+ </div>
+</div>
     <!-- start header codes -->
     <!-- div.text-white>div.container>div.p-5.text-uppercase.display-4{Frontend Eğitimimize Hoşgeldiniz}+h4{Html5 Css3 JS React}+a.btn.btn-primary+a.btn.btn-danger+a.btn.btn-success -->
     <header id="header_id">

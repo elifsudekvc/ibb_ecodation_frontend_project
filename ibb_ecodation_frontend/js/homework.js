@@ -52,3 +52,38 @@ if(sifre==sifre2){
 else{
     console.log("iki şifre uyuşmuyor.");
 }
+
+//kullanıcıdan alınan sayıya göre Haftanın günlerimi switch case ile yazdıralım.
+//örneğin: kullanıcı 1 girdi: 1=pazartesi yazacak.
+const haftaGunleri=()=>{
+    let gün=Number(prompt("pazartesi için 1, salı için 2, çarşamba için 3, perşembe için 4, cuma için 5, cumartesi için 6, pazar için 7ye basınız."));
+
+    switch(gün){
+        case 1:
+            console.log("pazartesi");
+            break;
+        case 2:
+            console.log("salı");
+            break;
+        case 3:
+            console.log("çarşamba");
+            break;
+        case 4:
+            console.log("perşembe");
+            break;
+        case 5:
+            console.log("cuma");
+            break;
+        case 6:
+            console.log("cumartesi");
+            break;
+        case 7:
+            console.log("pazar");
+            break;
+        default:
+            console.log("yanlış giriş");
+            break;
+            
+    }
+}
+haftaGunleri()
